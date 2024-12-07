@@ -35,7 +35,7 @@ public class FacebookLogin {
 		month.selectByVisibleText("Sep");
 
 		Select year = new Select(driver.findElement(By.name("birthday_year")));
-		year.selectByVisibleText("1998");
+		year.selectByVisibleText("1111");
 
 		driver.findElement(By.xpath("//input[@value='1']")).click();
 		driver.findElement(By.name("websubmit")).click();
